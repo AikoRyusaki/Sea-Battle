@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    android:background="@drawable/sea2">
+
+    <TextView
+        android:id="@+id/grid_first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingTop="20dp"
+        android:paddingLeft="70dp"
+        android:textSize="20sp"
+        android:text="@string/preparation" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingTop="40dp"
+        android:paddingLeft="50dp">
+        <GridView
+            android:id="@+id/grid_view_ships"
+            android:layout_width="384dp"
+            android:layout_height="410dp"
+            android:layout_margin="16dp"
+            android:background="#E5E5E5"
+            android:clipToPadding="false"
+            android:columnWidth="30dp"
+            android:horizontalSpacing="0dp"
+            android:numColumns="10"
+            android:padding="0dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/grid_second_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="20dp"
+        android:paddingRight="420dp"
+        android:textSize="20sp"
+        android:text="@string/preparation" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="40dp"
+        android:paddingRight="50dp">
+        <GridView
+            android:id="@+id/grid_view_ships_second"
+            android:layout_width="384dp"
+            android:layout_height="410dp"
+            android:layout_margin="16dp"
+            android:background="#E5E5E5"
+            android:clipToPadding="false"
+            android:columnWidth="30dp"
+            android:horizontalSpacing="0dp"
+            android:numColumns="10"
+            android:padding="0dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" />
+    </LinearLayout>
+</FrameLayout>

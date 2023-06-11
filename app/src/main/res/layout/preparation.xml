@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    android:background="@drawable/sea2">
+
+    <TextView
+        android:id="@+id/preparation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textSize="30sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/preparation" />
+
+    <LinearLayout
+        android:layout_width="421dp"
+        android:layout_height="458dp"
+        android:layout_gravity="top"
+        android:paddingTop="40dp">
+        <GridView
+            android:id="@+id/grid_view_ships"
+            android:layout_width="384dp"
+            android:layout_height="410dp"
+            android:layout_margin="16dp"
+            android:background="#E5E5E5"
+            android:clipToPadding="false"
+            android:columnWidth="30dp"
+            android:horizontalSpacing="0dp"
+            android:numColumns="10"
+            android:padding="0dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="40dp"
+        android:paddingRight="300dp">
+        <ImageView
+            android:id="@+id/ship_four_ver"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ship4" />
+
+        <ImageView
+            android:id="@+id/ship_four_hor"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ship4hor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="200dp"
+        android:paddingRight="350dp">
+        <TextView
+            android:id="@+id/placement_four_text"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placement" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="40dp"
+        android:paddingRight="50dp">
+        <ImageView
+            android:id="@+id/ship_two_ver"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ship2" />
+
+        <ImageView
+            android:id="@+id/ship_two_hor"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ship2hor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="200dp"
+        android:paddingRight="100dp">
+        <TextView
+            android:id="@+id/placement_two_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/placement" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="230dp"
+        android:paddingRight="300dp">
+        <ImageView
+            android:id="@+id/ship_three_ver"
+            android:layout_width="80dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ship3" />
+
+        <ImageView
+            android:id="@+id/ship_three_hor"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ship3hor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="370dp"
+        android:paddingRight="350dp">
+        <TextView
+            android:id="@+id/placement_three_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/placement" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="230dp"
+        android:paddingRight="150dp">
+        <ImageView
+            android:id="@+id/ship_one_ver"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ship1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="370dp"
+        android:paddingRight="100dp">
+        <TextView
+            android:id="@+id/placement_one_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/placement" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:paddingRight="180dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_gravity="end|bottom"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="@string/confirm" />
+</FrameLayout>

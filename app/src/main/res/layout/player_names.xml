@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    android:background="@drawable/sea">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/name_player_first_text"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/name_player_first" />
+
+        <EditText
+            android:id="@+id/edit_text_name_player_first"
+            android:hint="@string/name_player1"
+            android:layout_width="257dp"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:inputType="text"
+            android:background="#C99FCBF8"
+            android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingTop="100dp"
+        android:paddingStart="10dp">
+        <TextView
+            android:id="@+id/name_player_second_text"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/name_player_second" />
+        <EditText
+            android:id="@+id/edit_text_name_player_second"
+            android:hint="@string/name_player2"
+            android:layout_width="257dp"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:inputType="text"
+            android:background="#C99FCBF8"
+            android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingTop="300dp"
+        android:paddingStart="150dp">
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:layout_gravity="bottom"
+        android:text="@string/confirm" />
+    </LinearLayout>
+</FrameLayout>

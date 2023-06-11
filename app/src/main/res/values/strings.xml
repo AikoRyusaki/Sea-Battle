@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Sea Battle</string>
+    <string name="welcome">Welcome to Sea Battle</string>
+    <string name="new_game">New Game</string>
+    <string name="exit">Exit</string>
+    <string name="mode">Select game mode:</string>
+    <string name="bot">vs Computer</string>
+    <string name="friend">vs Friend</string>
+    <string name="auto_preparation">Randomise</string>
+    <string name="preparation">Grid</string>
+    <string name="name_player_first">Enter name of first player</string>
+    <string name="name_player_second">Enter name of second player</string>
+    <string name="name_player1">Player1</string>
+    <string name="name_player2">Player2</string>
+    <string name="confirm">Confirm</string>
+    <string name="placement">Available for placement:</string>
+    <string name="move">Your move,</string>
+    <string name="winner">Congratulations,</string>
+    <string name="restart">Restart</string>
+</resources>
